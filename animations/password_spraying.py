@@ -1,6 +1,6 @@
 from manim import *
 
-from manim_builder import ManimBuilder
+from ..core.manim_builder import ManimBuilder
 
 class PasswordSpraying(ManimBuilder):
     def construct(self):
