@@ -35,7 +35,16 @@ After running this command, Manim will process the scene and create a video file
 | `-qk`   | 4K quality                 | 3840x2160   | 60 FPS      |
 
 
-## Example
+### Example
 ```bash
 python3.11 -m manim -qk animations/password_spraying.py
 ```
+
+## Animations samples
+
+**These animations its rendered in low quality**.
+
+### Password Spraying
+<video controls>
+    <source src='samples/PasswordSpraying.mp4' type='video/mp4'>
+</video>
