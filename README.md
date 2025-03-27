@@ -1,6 +1,6 @@
 # hacking_manimations
 
-**hacking_manimations** es un proyecto que contiene el código fuente para crear animaciones educativas y visuales sobre hacking utilizando Manim. Puedes utilizar este repositorio para crear, modificar y compartir tus propias animaciones, ¡siempre que des crédito al autor original!
+**hacking_manimations** is a project that contains the source code to create educational and visual animations about hacking using Manim. You can use this repository to create, modify, and share your own animations, as long as you give credit to the original author!
 
 ## Requirements && Installation
 
