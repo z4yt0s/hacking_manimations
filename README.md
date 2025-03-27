@@ -45,4 +45,4 @@ python3.11 -m manim -qk animations/password_spraying.py
 **These animations its rendered in low quality**.
 
 ### Password Spraying
-![Password Spraying](samples/PasswordSpraying.mp4)
+https://github.com/user-attachments/assets/b16afbcc-4381-4b3d-ae29-0b0dbcb1219e
