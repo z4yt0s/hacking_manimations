@@ -6,6 +6,7 @@
 
 To run this proyect, it is recommended to use a Python 3.11+ virtual enviroment.
 
+- **0xProtoNerdFonts** for render icons
 - **Python 3.11** or higher
 - **Manim**
 
@@ -18,12 +19,23 @@ pip install -r requirements.txt
 To render an animation with manim in this proyect, you need to run a specific command in the terminal. This command will execute the Manim script and generate the animation.
 
 ```bash
-python3 -m manim --resolution <custom_resolution> --frame_rate <custom_framerate> <script_in_animation_directory> <mp4_filename>
+python3 -m manim <quality> <script_in_animation_directory>
 ```
 
 After running this command, Manim will process the scene and create a video file. The rendered video will be stored in a directory (media/) that Manim automatically creates within the project folder.
 
-**Example**
+### Render Quality Options
+
+| Option  | Quality Description        | Resolution  | Frame Rate  |
+|---------|----------------------------|-------------|-------------|
+| `-ql`   | Low quality                | 854x480     | 15 FPS      |
+| `-qm`   | Medium quality             | 1280x720    | 30 FPS      |
+| `-qh`   | High quality               | 1920x1080   | 60 FPS      |
+| `-qp`   | 2K quality                 | 2560x1440   | 60 FPS      |
+| `-qk`   | 4K quality                 | 3840x2160   | 60 FPS      |
+
+
+## Example
 ```bash
-python3.11 -m manim --resolution 1920x1080 --frame_rate 60 animations/password_spraying.py PasswordSpraying
+python3.11 -m manim -qk animations/password_spraying.py
 ```
